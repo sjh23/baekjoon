@@ -1,3 +1,8 @@
-b_year = input()
+A = int(input())
+B = int(input())
 
-print(int(b_year) - 543)
+print((B % 10) * A)
+print(((B // 10) % 10) * A)
+print((B // 100) * A)
+print(A * B)
+
